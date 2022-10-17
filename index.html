@@ -1,21 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AK Agencies | Bussiness Builder</title>
+
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <script src="https://kit.fontawesome.com/13f819a327.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <header class="header">
         <img src="img/A.K-removebg-preview.png" alt="logo" class="logo">
         <nav class="navbar">
             <ul class="navbar-list">
-                <li><a class="navbar-links" href="#">Home</a></li>
-                <li><a class="navbar-links" href="#">About</a></li>
-                <li><a class="navbar-links" href="#">Portfolio</a></li>
-                <li><a class="navbar-links" href="#">Blogs</a></li>
+                <li><a class="navbar-links" href="#homepage">Home</a></li>
+                <li><a class="navbar-links" href="#services">services</a></li>
+                <li><a class="navbar-links" href="#projects">projects</a></li>
+                <li><a class="navbar-links" href="#rating">rating</a></li>
                 <li><a class="navbar-links" href="#">Contact</a></li>
             </ul>
         </nav>
@@ -24,68 +29,344 @@
             <ion-icon class="mobilenavbar-icon" name="close-outline"></ion-icon>
         </div>
     </header>
-    <main>
-        <section class="fronpage">
-            <div class="homepage">
-                <div class="homepage-text">
-                    <div class="text">
-                        <h1>Let us Help you,<br>To build Your Brand</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure nisi itaque minus nobis. Cupiditate voluptas molestias magnam ab vitae, debitis aut eos hic nobis tenetur dolor harum, sequi ipsam? Sed praesentium blanditiis, optio natus ipsum, rerum sint minima ab impedit, ducimus velit aliquid quibusdam distinctio?</p>
-                    </div>
-                    <div class="button">
-                        <a class="button-product" href="#">See Products</a>
-                        <a class="button-contact" href="#">Contact us</a>
-                    </div>
+    <section id="homepage" class="fronpage">
+        <div class="homepage">
+            <div class="homepage-text">
+                <div class="text">
+                    <h1>Let us Help you,<br>To build Your Brand</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure nisi itaque minus nobis. Cupiditate
+                        voluptas molestias magnam ab vitae, debitis aut eos hic nobis tenetur dolor harum, sequi ipsam?
+                        Sed praesentium blanditiis, optio natus ipsum, rerum sint minima ab impedit, ducimus velit
+                        aliquid quibusdam distinctio?</p>
                 </div>
-                <div class="homepage-image">
-                    <img src="img/PngItem_146544.png" alt="Image">
+                <div class="button">
+                    <a class="button-product" href="#">See Products</a>
+                    <a class="button-contact" href="#">Contact us</a>
                 </div>
             </div>
-        </section>
-        <section>
-            <div class="services">
-                <div class="title">
-                    <h1>Our Services</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus maiores a placeat.</p>
+            <div class="homepage-image">
+                <img src="img/PngItem_146544.png" alt="Image">
+            </div>
+        </div>
+    </section>
+    <section id="services">
+        <div class="services">
+            <div class="title">
+                <h1>Our Services</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus maiores a placeat.</p>
+            </div>
+            <div class="services-cards">
+                <div class="card">
+                    <ion-icon class="icon" name="code-slash-outline"></ion-icon>
+                    <h3>Development</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 </div>
-                <div class="services-cards">
-                    <div class="card">
-                        <ion-icon class="icon" name="code-slash-outline"></ion-icon>
-                        <h3>Development</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <div class="card">
+                    <ion-icon class="icon" name="lock-open-outline"></ion-icon>
+                    <h3>Cyber Security</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit.</p>
+                </div>
+                <div class="card">
+                    <ion-icon class="icon" name="git-network-outline"></ion-icon>
+                    <h3>Synchronisation</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="card">
+                    <ion-icon class="icon" name="cloud-sharp"></ion-icon>
+                    <h3>Cloud Drive</h3>
+                    <p>Lsiciorem ipsum dolor sit amet consectetur adiping elit.</p>
+                </div>
+                <div class="card">
+                    <ion-icon class="icon" name="document-sharp"></ion-icon>
+                    <h3>File Sharing</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="card">
+                    <ion-icon class="icon" name="shield-checkmark-outline"></ion-icon>
+                    <h3>SEO</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="projects">
+        <div class="project">
+            <div class="project-title">
+                <h1>Our Recent Works</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam maxime odit dolore!</p>
+            </div>
+            <div class="project-cards">
+                <div class="cards-project">
+                    <h5>Development</h5>
+                    <h2>Brand Building</h2>
+                    <a class="Readmorebtn" href="#">Read More</a>
+                </div>
+                <div class="cards-project">
+                    <h5>Development</h5>
+                    <h2>Brand Building</h2>
+                    <a class="Readmorebtn" href="#">Read More</a>
+                </div>
+                <div class="cards-project">
+                    <h5>Development</h5>
+                    <h2>Brand Building</h2>
+                    <a class="Readmorebtn" href="#">Read More</a>
+                </div>
+
+            </div>
+            <a href="#"><ion-icon name="arrow-forward-circle-outline">See More</ion-icon></a>
+        </div>
+    </section>
+    <section id="rating">
+        <div class="rating-section">
+            <div class="title">
+                <h2>Our Rating</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="box">
+                <div class="container">
+                    <ion-icon class="icon" name="people-sharp"></ion-icon>
+                    <h1 class="rating" data-number="6000">0+</h1>
+                    <h2>Our Client</h2>
+                </div>
+                <div class="container">
+                    <img src="img/icons8-idea-30.png" class="icon" alt="">
+                    <h1 class="rating" data-number="80000">0+</h1>
+                    <h2>Projects Delivered</h2>
+                </div>
+                <div class="container">
+                    <ion-icon class="icon" name="trophy-sharp"></ion-icon>
+                    <h1 class="rating" data-number="1000">0+</h1>
+                    <h2>Award Winner</h2>
+                </div>
+                <div class="container">
+                    <img src="img/icons8-prize-30.png" class="icon" alt="">
+                    <h1 class="rating" data-number="800">0+</h1>
+                    <h2>Our Reviews</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="testimonial-section">
+            <div class="title">
+                <h2>What Our Client Say</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore a odit ab!</p>
+            </div>
+            <div class="swiper mySwiper container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="swiper-client-msg">
+                            <p>1 Lorem ipsum, dolor sit Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
+                                distinctio veniam ipsam? amet consectetur adipisicing elit. Aliquid inventore fugit
+                                eius.</p>
+                        </div>
+                        <div class="swiper-client-data grid ">
+                            <figure>
+                                <img src="img/pexels-masha-raymers-2726111.jpg" alt="">
+                            </figure>
+                            <d class="client-data-details">
+                                <p>Vinod Thapa</p>
+                                <p>Entroprenur</p>
+                            </d iv>
+                        </div>
+
                     </div>
-                    <div class="card">
-                        <ion-icon class="icon" name="lock-open-outline"></ion-icon>
-                        <h3>Cyber Security</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <div class="swiper-slide">
+                        <div class="swiper-client-msg">
+                            <p>2 Lorem ipsum, dolor sit Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
+                                distinctio veniam ipsam? amet consectetur adipisicing elit. Aliquid inventore fugit
+                                eius.</p>
+                        </div>
+                        <div class="swiper-client-data grid ">
+                            <figure>
+                                <img src="img/pexels-masha-raymers-2726111.jpg" alt="">
+                            </figure>
+                            <div class="client-data-details">
+                                <p>Vinod Thapa</p>
+                                <p>Entroprenur</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="card">
-                        <ion-icon class="icon" name="git-network-outline"></ion-icon>
-                        <h3>Synchronisation</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <div class="swiper-slide">
+                        <div class="swiper-client-msg">
+                            <p>3 Lorem ipsum, dolor sit Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
+                                distinctio veniam ipsam? amet consectetur adipisicing elit. Aliquid inventore fugit
+                                eius.</p>
+                        </div>
+                        <div class="swiper-client-data grid ">
+                            <figure>
+                                <img src="img/pexels-masha-raymers-2726111.jpg" alt="">
+                            </figure>
+                            <div class="client-data-details">
+                                <p>Vinod Thapa</p>
+                                <p>Entroprenur</p>
+                            </div>
+                        </div>
+
                     </div>
-                    <div class="card">
-                        <ion-icon class="icon" name="cloud-sharp"></ion-icon>
-                        <h3>Cloud Drive</h3>
-                        <p>Lsiciorem ipsum dolor sit amet consectetur adiping elit.</p>
+                    <div class="swiper-slide">
+                        <div class="swiper-client-msg">
+                            <p>4 Lorem ipsum, dolor sit Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
+                                distinctio veniam ipsam? amet consectetur adipisicing elit. Aliquid inventore fugit
+                                eius.</p>
+                        </div>
+                        <div class="swiper-client-data grid ">
+                            <figure>
+                                <img src="img/pexels-masha-raymers-2726111.jpg" alt="">
+                            </figure>
+                            <div class="client-data-details">
+                                <p>Vinod Thapa</p>
+                                <p>Entroprenur</p>
+                            </div>
+                        </div>
+
                     </div>
-                    <div class="card">
-                        <ion-icon class="icon" name="document-sharp"></ion-icon>
-                        <h3>File Sharing</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <div class="swiper-slide">
+                        <div class="swiper-client-msg">
+                            <p> 5 Lorem ipsum, dolor sit Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
+                                distinctio veniam ipsam? amet consectetur adipisicing elit. Aliquid inventore fugit
+                                eius.</p>
+                        </div>
+                        <div class="swiper-client-data grid ">
+                            <figure>
+                                <img src="img/pexels-masha-raymers-2726111.jpg" alt="">
+                            </figure>
+                            <div class="client-data-details">
+                                <p>Vinod Thapa</p>
+                                <p>Entroprenur</p>
+                            </div>
+                        </div>
+
                     </div>
-                    <div class="card">
-                        <ion-icon class="icon" name="shield-checkmark-outline"></ion-icon>
-                        <h3>SEO</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>                       
+                    <div class="swiper-slide">
+                        <div class="swiper-client-msg">
+                            <p>6 Lorem ipsum, dolor sit Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
+                                distinctio veniam ipsam? amet consectetur adipisicing elit. Aliquid inventore fugit
+                                eius.</p>
+                        </div>
+                        <div class="swiper-client-data grid ">
+                            <figure>
+                                <img src="img/pexels-masha-raymers-2726111.jpg" alt="">
+                            </figure>
+                            <div class="client-data-details">
+                                <p>Vinod Thapa</p>
+                                <p>Entroprenur</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <br>
+                <br>
+                <br>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="team">
+            <div class="title">
+                <h2>Our Colabrations With...</h2>
+            </div>
+            <div class="brands">
+                <div class="swiper mySwiper-brand container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <ion-icon class="icon-brand" name="logo-amazon"></ion-icon>
+                        </div>
+                        <div class="swiper-slide">
+                            <ion-icon class="icon-brand" name="logo-linkedin"></ion-icon>
+                        </div>
+                        <div class="swiper-slide">
+                            <ion-icon class="icon-brand" name="logo-medium"></ion-icon>
+                        </div>
+                        <div class="swiper-slide">
+                            <ion-icon class="icon-brand" name="logo-gitlab"></ion-icon>
+                        </div>
+                        <div class="swiper-slide">
+                            <ion-icon class="icon-brand" name="logo-rss"></ion-icon>                        </div>
                     </div>
                 </div>
             </div>
-        </section>
-    </main>
+        </div>
+    </section>
+    <section>
+        <div class="team-members">
+            <div class="title">
+                <h2>Our Team Leaders</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="grid-team">
+                <div class="grid-team-1 team-card">
+                    <img src="/img/pexels-juan-gomez-2589650.jpg" alt="photo">
+                    <h2>Mohd Tahzeeb Khan</h2>
+                    <p>Software Enginer</p>
+                </div>
+                <div class="grid-team-2 team-card">
+                    <img src="img/pexels-andrea-piacquadio-733872.jpg" alt="photo">
+                    <h2>Mohd Tahzeeb Khan</h2>
+                    <p>Software Enginer</p>
+                </div>
+                <div class="grid-team-3 team-card">
+                    <img src="img/pexels-kiara-coll-2928381.jpg" alt="photo">
+                    <h2>Mohd Tahzeeb Khan</h2>
+                    <p>Software Enginer</p>
+                </div>
+                <div class="grid-team-4 team-card">
+                    <img src="/img/pexels-karolina-grabowska-4202325.jpg" alt="photo">
+                    <h2>Mohd Tahzeeb Khan</h2>
+                    <p>Software Enginer</p>
+                </div>
+                <div class="grid-team-5 team-card">
+                    <img src="img/pexels-andrea-piacquadio-733872.jpg" alt="photo">
+                    <h2>Mohd Tahzeeb Khan</h2>
+                    <p>Software Enginer</p>
+                </div>
+                <div class="grid-team-6 team-card">
+                    <img src="img/pexels-juan-gomez-2589650.jpg" alt="photo">
+                    <h2>Mohd Tahzeeb Khan</h2>
+                    <p>Software Enginer</p>
+                </div>
+                <div class="grid-team-7 team-card">
+                    <img src="img/pexels-andrea-piacquadio-733872.jpg" alt="photo">
+                    <h2>Mohd Tahzeeb Khan</h2>
+                    <p>Software Enginer</p>
+                </div>
+                <div class="grid-team-8 team-card">
+                    <img src="img/pexels-andrea-piacquadio-733872.jpg" alt="photo">
+                    <h2>Mohd Tahzeeb Khan</h2>
+                    <p>Software Enginer</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="contact-us">
+            <div class="title">
+                <h2>Contact Us</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit temporibus porro excepturi?</p>
+            </div>
+            <div class="three-grid">
+                <div class="contact-form">
+
+                </div>
+                <div class="map">
+
+                </div>
+                <div class="details">
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 </body>
 <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
 <script src="logic.js"></script>
+
 </html>
