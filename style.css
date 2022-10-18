@@ -294,6 +294,11 @@ body{
 .rating-section .box .container .rating{
     font-family: 'Oswald', sans-serif;
 }
+.rating-section .box .container .rating::after{
+    content: "+";
+
+
+}
 .rating-section .box .container .icon{
     margin: 1rem auto;
     font-size: 3.5rem;
@@ -453,6 +458,71 @@ body{
 }
 .team-members .grid-team .team-card h2{
     font-size: 2rem;
+}
+/*----------------team member section end --------------------------------------*/
+/*----------------contact us section start --------------------------------------*/
+
+.contact-us{
+   
+    background: linear-gradient(rgba(250, 250, 250, 0.20),  rgba(255, 255, 255, 0.45)),url("img/pexels-vinta-supply-co-_-nyc-842948.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.contact-us .title{
+    padding-top: 10rem;
+    text-align: center;
+}
+.contact-us .title h2{
+    font-size: 34px;
+}
+.contact-us .title p{
+    padding-top: 2rem;
+    font-size: 15px;
+}
+.contact-us .three-grid{
+    width: 70%;
+    margin: 10rem auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr .5fr .1fr;
+    gap: 1rem;
+}
+.contact-us .contact-form{
+    grid: 1/2;
+    justify-self: stretch;
+    background-color: #000;
+    opacity: .5;
+}
+.contact-us .map{
+    grid: 2/3;
+    background: #000;
+    justify-self: stretch;
+    justify-self: end;
+}
+.contact-us .details{
+    grid-column-start: 1;
+    grid-column-end: -1;
+    background: #000;
+    opacity: .5;
+    color: #fff;
+}
+.contact-us .details{
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    grid-template-rows: 1fr;
+}
+.three-grid .details .center-align{
+    justify-self: center;
+    align-self: center;
+}
+.details-icon{
+    font-size: 34px;
+    text-align: center;
+}
+.details-icon .icon-con{
+    margin: 1.8rem;
 }
 /*======================================================
 =====Mobile View====================================
