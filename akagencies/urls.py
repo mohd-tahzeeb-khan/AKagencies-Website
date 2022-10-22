@@ -21,6 +21,7 @@ from django.conf.urls.static import static
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('storedata/',views.savecontact, name='storedata' ),
     path('',views.index),
 ]
 if settings.DEBUG:
