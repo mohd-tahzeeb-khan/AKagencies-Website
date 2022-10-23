@@ -15,7 +15,7 @@
 
 <body>
     <header class="header">
-        <img src="img/A.K-removebg-preview.png" alt="logo" class="logo">
+        <img src="static\img\AK-logo.png" alt="logo" class="logo">
         <nav class="navbar">
             <ul class="navbar-list">
                 <li><a class="navbar-links" href="#homepage">Home</a></li>
@@ -46,7 +46,7 @@
                 </div>
             </div>
             <div class="homepage-image">
-                <img src="img/PngItem_146544.png" alt="Image">
+                <img src="static\img\homepage-bg.png" alt="Image">
             </div>
         </div>
     </section>
@@ -57,37 +57,14 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus maiores a placeat.</p>
             </div>
             <div class="services-cards">
+                {% for i in service %}
                 <div class="card">
                     <ion-icon class="icon" name="code-slash-outline"></ion-icon>
-                    <h3>Development</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <h3>{{i.Service_provided}}</h3>
+                    <p>{{i.Service_description}}</p>
                 </div>
-                <div class="card">
-                    <ion-icon class="icon" name="lock-open-outline"></ion-icon>
-                    <h3>Cyber Security</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur
-                        adipisicing elit.</p>
-                </div>
-                <div class="card">
-                    <ion-icon class="icon" name="git-network-outline"></ion-icon>
-                    <h3>Synchronisation</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                </div>
-                <div class="card">
-                    <ion-icon class="icon" name="cloud-sharp"></ion-icon>
-                    <h3>Cloud Drive</h3>
-                    <p>Lsiciorem ipsum dolor sit amet consectetur adiping elit.</p>
-                </div>
-                <div class="card">
-                    <ion-icon class="icon" name="document-sharp"></ion-icon>
-                    <h3>File Sharing</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                </div>
-                <div class="card">
-                    <ion-icon class="icon" name="shield-checkmark-outline"></ion-icon>
-                    <h3>SEO</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                </div>
+                {% endfor %}
+                
             </div>
         </div>
     </section>
@@ -98,24 +75,14 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam maxime odit dolore!</p>
             </div>
             <div class="project-cards">
+                {% for i in project %}
                 <div class="cards-project">
-                    <img src="img/project-2.jpg" alt="">
-                    <h5>Consultancy</h5>
-                    <h2>JokStore</h2>
+                    <img src="/media/{{i.image}}" alt="">
+                    <h5>{{i.categoryproject}}</h5>
+                    <h2>{{i.companyname}}</h2>
                     <a class="Readmorebtn" href="#">Read More</a>
                 </div>
-                <div class="cards-project">
-                    <img src="img/project-1.jpg" alt="">
-                    <h5>Marketing</h5>
-                    <h2>Visual Sales LTD</h2>
-                    <a class="Readmorebtn" href="#">Read More</a>
-                </div>
-                <div class="cards-project">
-                    <img src="img/project-3.jpg" alt="">
-                    <h5>Development</h5>
-                    <h2>Artificail Tech Pvt LTD</h2>
-                    <a class="Readmorebtn" href="#">Read More</a>
-                </div>
+                {% endfor %}
 
             </div>
         </div>
@@ -159,107 +126,24 @@
             </div>
             <div class="swiper mySwiper container">
                 <div class="swiper-wrapper">
+                   
+                    {% for i in testimonial%}
                     <div class="swiper-slide">
                         <div class="swiper-client-msg">
-                            <p>1 Lorem ipsum, dolor sit Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
-                                distinctio veniam ipsam? amet consectetur adipisicing elit. Aliquid inventore fugit
-                                eius.</p>
+                            <p>{{i.message |slice:"150"}}</p>
                         </div>
                         <div class="swiper-client-data grid ">
                             <figure>
-                                <img src="img/pexels-masha-raymers-2726111.jpg" alt="">
-                            </figure>
-                            <d class="client-data-details">
-                                <p>Vinod Thapa</p>
-                                <p>Entroprenur</p>
-                            </d iv>
-                        </div>
-
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="swiper-client-msg">
-                            <p>2 Lorem ipsum, dolor sit Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
-                                distinctio veniam ipsam? amet consectetur adipisicing elit. Aliquid inventore fugit
-                                eius.</p>
-                        </div>
-                        <div class="swiper-client-data grid ">
-                            <figure>
-                                <img src="img/pexels-masha-raymers-2726111.jpg" alt="">
+                                <img src="/media/{{i.image}}" alt="">
                             </figure>
                             <div class="client-data-details">
-                                <p>Vinod Thapa</p>
-                                <p>Entroprenur</p>
+                                <p>{{i.name}}</p>
+                                <p>{{i.profession}}</p>
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-slide">
-                        <div class="swiper-client-msg">
-                            <p>3 Lorem ipsum, dolor sit Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
-                                distinctio veniam ipsam? amet consectetur adipisicing elit. Aliquid inventore fugit
-                                eius.</p>
-                        </div>
-                        <div class="swiper-client-data grid ">
-                            <figure>
-                                <img src="img/pexels-masha-raymers-2726111.jpg" alt="">
-                            </figure>
-                            <div class="client-data-details">
-                                <p>Vinod Thapa</p>
-                                <p>Entroprenur</p>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="swiper-client-msg">
-                            <p>4 Lorem ipsum, dolor sit Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
-                                distinctio veniam ipsam? amet consectetur adipisicing elit. Aliquid inventore fugit
-                                eius.</p>
-                        </div>
-                        <div class="swiper-client-data grid ">
-                            <figure>
-                                <img src="img/pexels-masha-raymers-2726111.jpg" alt="">
-                            </figure>
-                            <div class="client-data-details">
-                                <p>Vinod Thapa</p>
-                                <p>Entroprenur</p>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="swiper-client-msg">
-                            <p> 5 Lorem ipsum, dolor sit Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
-                                distinctio veniam ipsam? amet consectetur adipisicing elit. Aliquid inventore fugit
-                                eius.</p>
-                        </div>
-                        <div class="swiper-client-data grid ">
-                            <figure>
-                                <img src="img/pexels-masha-raymers-2726111.jpg" alt="">
-                            </figure>
-                            <div class="client-data-details">
-                                <p>Vinod Thapa</p>
-                                <p>Entroprenur</p>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="swiper-client-msg">
-                            <p>6 Lorem ipsum, dolor sit Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
-                                distinctio veniam ipsam? amet consectetur adipisicing elit. Aliquid inventore fugit
-                                eius.</p>
-                        </div>
-                        <div class="swiper-client-data grid ">
-                            <figure>
-                                <img src="img/pexels-masha-raymers-2726111.jpg" alt="">
-                            </figure>
-                            <div class="client-data-details">
-                                <p>Vinod Thapa</p>
-                                <p>Entroprenur</p>
-                            </div>
-                        </div>
-
-                    </div>
+                    {% endfor %}
+                    
                 </div>
                 <br>
                 <br>
@@ -304,47 +188,13 @@
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
             </div>
             <div class="grid-team">
+                {% for i in team %}
                 <div class="grid-team-1 team-card">
-                    <img src="/img/pexels-juan-gomez-2589650.jpg" alt="photo">
-                    <h2>Mohd Tahzeeb Khan</h2>
-                    <p>Software Enginer</p>
+                    <img src="/media/{{i.image}}" alt="photo">
+                    <h2>{{i.Name}}</h2>
+                    <p>{{i.designation}}</p>
                 </div>
-                <div class="grid-team-2 team-card">
-                    <img src="img/pexels-andrea-piacquadio-733872.jpg" alt="photo">
-                    <h2>Mohd Tahzeeb Khan</h2>
-                    <p>Software Enginer</p>
-                </div>
-                <div class="grid-team-3 team-card">
-                    <img src="img/pexels-pixabay-38554.jpg" alt="photo">
-                    <h2>Mohd Tahzeeb Khan</h2>
-                    <p>Software Enginer</p>
-                </div>
-                <div class="grid-team-4 team-card">
-                    <img src="/img/pexels-karolina-grabowska-4202325.jpg" alt="photo">
-                    <h2>Mohd Tahzeeb Khan</h2>
-                    <p>Software Enginer</p>
-                </div>
-                <div class="grid-team-5 team-card">
-                    <img src="img/pexels-andrea-piacquadio-733872.jpg" alt="photo">
-                    <h2>Mohd Tahzeeb Khan</h2>
-                    <p>Software Enginer</p>
-                </div>
-                <div class="grid-team-6 team-card">
-                    <img src="img/pexels-juan-gomez-2589650.jpg" alt="photo">
-                    <h2>Mohd Tahzeeb Khan</h2>
-                    <p>Software Enginer</p>
-                </div>
-                <div class="grid-team-7 team-card">
-                    <img src="img/pexels-andrea-piacquadio-733872.jpg" alt="photo">
-                    <h2>Mohd Tahzeeb Khan</h2>
-                    <p>Software Enginer</p>
-                </div>
-                <div class="grid-team-8 team-card">
-                    <img src="img/pexels-andrea-piacquadio-733872.jpg" alt="photo">
-                    <h2>Mohd Tahzeeb Khan</h2>
-                    <p>Software Enginer</p>
-                </div>
-
+                {%endfor%}
             </div>
         </div>
     </section>
@@ -380,18 +230,19 @@
                 <div class="map">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d119065.02460504945!2d79.00246952269255!3d21.161071437969245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4c0a5a31faf13%3A0x19b37d06d0bb3e2b!2sNagpur%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1666036034799!5m2!1sen!2sin" width="500" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>  
                 </div>
+                {% for i in contact_detail%}
                 <div class="details">
                     <div class="details-icon center-align">
                         <ion-icon name="call-outline"></ion-icon>
-                        <h1 style="font-size: 20px;"> 7498518671 | 9822130819</h1>
+                        <h1 style="font-size: 20px;">{{i.Phone}} | {{i.Alternate_Phone_no}}</h1>
                     </div>
                     <div class="details-icon center-align">
                         <h3 style="font-size: 18px;">Socail Media</h3>
                         <div class="icon-con">
-                            <a href="#"><ion-icon style="padding: 20px 5px 0px 5px;" name="logo-facebook"></ion-icon></a>
-                            <a href="#"><ion-icon style="padding: 20px 5px 0px 5px;" name="logo-instagram"></ion-icon></a>
-                            <a href="#"><ion-icon style="padding: 20px 5px 0px 5px;" name="logo-twitter"></ion-icon></a>
-                            <a href="#"><ion-icon style="padding: 20px 5px 0px 5px;" name="logo-youtube"></ion-icon></a>
+                            <a href="{{i.Instragram}}"><ion-icon style="padding: 20px 5px 0px 5px;" name="logo-facebook"></ion-icon></a>
+                            <a href="{{i.Instragram}}"><ion-icon style="padding: 20px 5px 0px 5px;" name="logo-instagram"></ion-icon></a>
+                            <a href="{{i.Instragram}}"><ion-icon style="padding: 20px 5px 0px 5px;" name="logo-twitter"></ion-icon></a>
+                            <a href="{{i.Instragram}}"><ion-icon style="padding: 20px 5px 0px 5px;" name="logo-youtube"></ion-icon></a>
                         </div>
                     </div>
                     <div class="details-icon center-align ">
@@ -400,6 +251,7 @@
                     </div>
                 </div>
             </div>
+            {%endfor%}
             <div class="footer">
                 <div class="title-footer">
                     <h3>Copyright 2022   <a href="tahzeeb.dev">Py_Dev_Tahzeeb</a>.    All Rights Reserved</h3>
