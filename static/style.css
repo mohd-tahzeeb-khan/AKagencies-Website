@@ -8,6 +8,7 @@ html{
     font-size: 62.5%;
     overflow-x: hidden;
     scroll-behavior: smooth;
+    
 }
 body{
     overflow-x: hidden;
@@ -506,7 +507,7 @@ body{
     grid: 1/2;
     justify-self: stretch;
     background-color: #000;
-    opacity: .5;
+    opacity: 0.8;
 }
 .contact-us .map{
     grid: 2/3;
@@ -724,6 +725,10 @@ body{
     .contact-us .three-grid .details {
         grid-template-columns: 1fr;
         grid-template-rows: repeat(3, 1fr);
+    }
+    .three-grid .contact-form form{
+        padding: 4rem 8rem;
+        margin: auto;
     }
     .three-grid .map{
         visibility: hidden;

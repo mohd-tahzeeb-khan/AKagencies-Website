@@ -1,5 +1,5 @@
 from django.http import HttpResponse
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from contact.models import contactus
 from contact.forms import formcontactus
 
@@ -17,5 +17,5 @@ def savecontact(request):
         description=request.POST.get('description')
         savedata=contactus(name=name, email=email, mobile=mobileno, message=description)
         savedata.save()
-        return HttpResponse("Thank You so Much")
+        return redirect(index)
 
