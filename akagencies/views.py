@@ -2,11 +2,11 @@ from django.http import HttpResponse
 from django.shortcuts import render, redirect
 from contact.models import contactus
 from contact.forms import formcontactus
+from homepage.models import homepage
 
 
 def index(request):
     contact=formcontactus(request.POST)
-    print(contact)
     data={'form':contact}
     return render(request, "index.html", data)
 def savecontact(request):
@@ -18,4 +18,5 @@ def savecontact(request):
         savedata=contactus(name=name, email=email, mobile=mobileno, message=description)
         savedata.save()
         return redirect(index)
+
 
