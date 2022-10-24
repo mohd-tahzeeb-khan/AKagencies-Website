@@ -101,7 +101,7 @@ var swiper = new Swiper(".mySwiper-brand", {
     spaceBetween: 30,
     loop:true,
     autoplay:{
-        delay:1500,
+        delay:900,
     },
     freeMode: true,
   });

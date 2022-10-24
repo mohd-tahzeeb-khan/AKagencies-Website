@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'testimonials',
     'projects',
     'team',
+    'partner',
 ]
 
 MIDDLEWARE = [
