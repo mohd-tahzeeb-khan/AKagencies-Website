@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'projects',
     'team',
     'partner',
+    'tinymce',
 ]
 
 MIDDLEWARE = [

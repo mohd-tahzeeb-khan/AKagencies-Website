@@ -33,7 +33,7 @@
         <div class="homepage">
             <div class="homepage-text">
                 <div class="text">
-                    <h1>{{i.heading}}</h1>
+                    <h1>{{i.heading | safe}}</h1>
                     <p>{{i.description_paragraph}}</p>
                 </div>
                 <div class="button">
@@ -127,7 +127,7 @@
                     {% for i in testimonial%}
                     <div class="swiper-slide">
                         <div class="swiper-client-msg">
-                            <p>{{i.message |slice:"150"}}</p>
+                            <p>{{i.message |slice:"150" | safe}}</p>
                         </div>
                         <div class="swiper-client-data grid ">
                             <figure>
