@@ -1,4 +1,5 @@
-# AKagencies-Website
+
+# Hi, I'm Mohd Tahzeeb Khan! 👋, This is Another website Developed in python(DJango Framework). 
 I had Develop with website with the backend using django framework of python. I have Develop this project only for my Practice and Gain New technique and knowledge. This project includes Maximum basic components and knowledge of Django and HTML, CSS, and JS
 admin login : Username = **admin**
               password = **123**
