@@ -21,6 +21,12 @@ Swiper.Js
 **Database:** SQLite3.
 
 
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
+Note:Images and logo used in this Websites are all from online free sources. No Licensing Requiured from my site.
+
 
 
 admin login : Username = **admin**
