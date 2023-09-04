@@ -18,9 +18,11 @@ Swiper.Js
 
 **Framework:** DJango Framework.
 
+**Database:** SQLite3.
 
 
-I had Develop with website with the backend using django framework of python. I have Develop this project only for my Practice and Gain New technique and knowledge. This project includes Maximum basic components and knowledge of Django and HTML, CSS, and JS
+
+
 admin login : Username = **admin**
               password = **123**
               pass
