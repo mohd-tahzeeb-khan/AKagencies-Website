@@ -20,6 +20,8 @@ Swiper.Js
 
 **Database:** SQLite3.
 
+**Libraries** tinymce, pillow
+
 
 ## License
 
@@ -68,6 +70,14 @@ That's all, to Execute this project
 | Font color | #000|
 | Theme color | #47baeb |
 
-Then, after downloading and installing the Python Programming langauge, install django framework from cmd by executing command **pip install django**,
-Then install tinyace word editor, execute commmand **pip install django-tinyace** on cmd terminal or any code editor terminal.
-After install and intergrating all the frameworks and external libraries run the code by executing **py manage.py runserver** 
+
+## Authors (Developed by)
+
+- [@Mohd Tahzeeb Khan](https://www.github.com/Tahzeeb-web-py)
+
+## 🛠 My Skills
+HTML, CSS, Javascripts(Basic)....
+
+Python Programming, Django Framework, Flask Framework, Tkinter...
+
+Java Programming, Swing, Servlet.
