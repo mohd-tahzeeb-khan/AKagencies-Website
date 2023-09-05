@@ -30,6 +30,7 @@ Note:Images and logo used in this Websites are all from online free sources. No 
 ## Execution of Project
 
 *Note:*  To run this project you need to download and install Python on your local system.
+To install python on your System use this link: https://www.python.org/downloads/
 
 Copy command into your Command Propmt(CMD)
 ```bash
@@ -66,17 +67,6 @@ That's all, to Execute this project
 | Font color | #000|
 | Theme color | #47baeb |
 
-
-
-
-
-
-
-
-admin login : Username = **admin**
-              password = **123**
-              pass
-To Run this Project you have to install python programming Language from https://www.python.org/downloads/
 Then, after downloading and installing the Python Programming langauge, install django framework from cmd by executing command **pip install django**,
 Then install tinyace word editor, execute commmand **pip install django-tinyace** on cmd terminal or any code editor terminal.
 After install and intergrating all the frameworks and external libraries run the code by executing **py manage.py runserver** 
