@@ -27,6 +27,34 @@ Swiper.Js
 
 Note:Images and logo used in this Websites are all from online free sources. No Licensing Requiured from my site.
 
+## Execution of Project
+
+*Note:*  To run this project you need to download and install Python on your local system.
+
+Copy command into your Command Propmt(CMD)
+```bash
+ git clone https://github.com/Tahzeeb-web-py/AKagencies-Website.git
+```
+The Above command will clone the project from remote Directory to the local Directory.
+
+Install all dependencies
+```bash
+            pip install django
+            pip install django-tinymce
+            pip install pillow
+```
+After installing all the dependencies, Execute below code in your terminal.
+```bash
+            python manage.py runserver
+```
+**if your default port(8000) is busy then use below code
+```bash
+            python manage.py runserver 5555
+```
+That's all, to Execute this project
+
+
+
 
 
 admin login : Username = **admin**
