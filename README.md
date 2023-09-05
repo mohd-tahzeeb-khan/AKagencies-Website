@@ -52,6 +52,12 @@ After installing all the dependencies, Execute below code in your terminal.
             python manage.py runserver 5555
 ```
 That's all, to Execute this project
+## Credentials
+**Admin panel**
+```bash 
+            Username: admin
+            Password: 123
+```
 ## Color Reference
 
 | Color             | Hex                                                                |
