@@ -52,6 +52,16 @@ After installing all the dependencies, Execute below code in your terminal.
             python manage.py runserver 5555
 ```
 That's all, to Execute this project
+## Color Reference
+
+| Color             | Hex                                                                |
+| ----------------- | ------------------------------------------------------------------ |
+| Heading color | #0a192f |
+| Font color | #000|
+| Theme color | #47baeb |
+
+
+
 
 
 
