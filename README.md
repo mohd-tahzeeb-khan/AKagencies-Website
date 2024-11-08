@@ -1,5 +1,5 @@
 
-# Hi, I'm Mohd Tahzeeb Khan! 👋, This is Another website Developed in python(DJango Framework). 
+# Hi, I'm Mohd Tahzeeb Khan! 👋, This website is Developed in python(DJango Framework). 
 
 # Consultancy Agencies Website
 This is a perfect project for the students or any learner to understand the Django Framework. This project is Developed using Basics of Django framework. It covers maximum basic components and concepts of Django. I have developed this website to showcase Agencies ability, motive, vision, and features. This website is developed for AK Agencies, Nagpur(An Startup).
