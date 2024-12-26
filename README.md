@@ -8,8 +8,7 @@ While Developing this Website i was also learning the framework and its concepts
 
 ## Tech Stack
 
-**Frontend(GUI):** HTML,
-CSS,
+**Frontend(GUI):** HTML, CSS,
 Javascript,
 Swiper.Js
 
